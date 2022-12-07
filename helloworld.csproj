@@ -8,8 +8,3 @@
 		<Csc Sources="@(Compile)"/>
 	</Target>
 </Project>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Priv
