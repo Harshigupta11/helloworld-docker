@@ -11,7 +11,7 @@ COPY . ./
 RUN dotnet restore
 # Build and publish a release
 RUN dotnet build -c release --no-restore -o out
-
+RUN ls -la
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /App
