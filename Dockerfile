@@ -17,4 +17,4 @@ RUN ls -la out
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /App
 COPY --from=build-env /App/out .
-ENTRYPOINT ["dotnet", "Helloworld.dll"]
+ENTRYPOINT ["dotnet", "helloworld.dll"]
